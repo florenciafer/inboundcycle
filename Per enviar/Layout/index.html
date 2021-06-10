@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>InboundCycle</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <!-- Header -->
+  <header class="container-header">
+    <!-- Logotype -->
+    <img src="img/inboundcycle-logo.png" class="logotype" alt="InboundCycle" />
+    <!-- Social Icons -->
+    <ul class="social-icons">
+      <li>
+        <a
+          href="https://www.facebook.com/InboundCycle"
+          target="_blank"
+          title="Visita nuestra cuenta de Facebook de InboundCycle"
+        >
+          <i class="fa fa-facebook-square"></i>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://twitter.com/inboundcycle"
+          target="_blank"
+          title="Visitar el Twitter de InboundCycle"
+        >
+          <i class="fa fa-twitter-square"></i>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.linkedin.com/company/2387654"
+          target="_blank"
+          title="Visitar el LinkedIn de InboundCycle"
+        >
+          <i class="fa fa-linkedin-square"></i>
+        </a>
+      </li>
+    </ul>
+  </header>
+  <!-- Separator Image -->
+  <div class="separator-image">
+    <img
+      src="img/separator-image.jpg"
+      alt="separator-image"
+      class="separator"
+    />
+  </div>
+  <!-- Container -->
+  <div class="wrapper">
+    <section class="container-wrapper">
+      <!-- Ebook -->
+      <img
+        src="img/ebook.png"
+        class="ebook"
+        alt="E-book genérico de InboundCycle"
+      />
+      <!-- Titles -->
+
+      <h1 class="title">
+        Lorem ipsum dolor sit amet elit consectetur adipiscing eu ipsum
+        porttitor ligula donec
+      </h1>
+      <h2 class="title-secondary">
+        Lorem ipsum dolor sit amet consectetur adipiscing elit eu porttitor
+        ligula donec
+      </h2>
+      <!-- Body text -->
+      <p class="text">
+        Duis blandit tempor facilisis. Curabitur ipsum turpis,
+        <a href="#" class="enlace" title="Enlace de prueba">venenatis</a> et
+        massa id, congue dignissim nibh. Praesent vitae justo vel metus faucibus
+        vehicula. Donec vitae semper eros, et viverra leo. Quisque maximus
+        semper mi, sit amet vehicula quam ultricies eu. Nullam euismod orci sed
+        erat blandit vulputate nec vitae arcu. Integer nec imperdiet sem. Nullam
+        a nibh rhoncus, tincidunt arcu eu, porta erat. Vestibulum ante ipsum
+        primis in faucibus orci luctus et ultrices posuere cubilia curae semper
+        eros, et viverra leo.
+      </p>
+      <!-- Emphasizes -->
+      <div class="hola">
+        Rellena el formulario para descargar la guía
+        <i class="fa fa-long-arrow-right"></i>
+      </div>
+    </section>
+    <!-- Aside -->
+    <aside class="container-form">
+      <!-- Download form -->
+      <form id="container-form" action="post">
+        <h3 class="form-title">Descargar e-book gratis</h3>
+        <fieldset>
+          <input
+            type="text"
+            id="nombre"
+            name="name"
+            class="input"
+            placeholder="Nombre"
+            required
+          />
+          <input
+            type="text"
+            id="apellidos"
+            name="surname"
+            class="input"
+            placeholder="Apellidos"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="input"
+            placeholder="Email"
+            required
+          />
+        </fieldset>
+        <fieldset class="checkbox">
+          <label class="label-checkbox"
+            ><input type="checkbox" name="legal" required /> Acepto la
+            <a
+              href="#"
+              class="enlace"
+              title="Lea nuestra política de privacidad"
+              >política de privacidad</a
+            >*</label
+          >
+          <label class="label-checkbox"
+            ><input type="checkbox" name="subscription" required /> Suscríbeme
+            al blog</label
+          >
+        </fieldset>
+        <button class="btn-submit" type="submit">Descargar</button>
+      </form>
+    </aside>
+  </div>
+  <!-- Footer -->
+  <footer class="container-footer">
+    <div class="footer-frame">
+      <!-- Logotype -->
+      <div>
+        <img
+          src="img/inboundcycle-logo-small.png"
+          class="logotype"
+          alt="InboundCycle"
+        />
+      </div>
+
+      <!-- Legal menu -->
+      <nav class="nav-footer">
+        <ul class="container-lista">
+          <li class="footer-lista">
+            <a
+              class="link-footer"
+              href="#"
+              title="Lea nuestra política de privacidad"
+              >Política de Privacidad</a
+            >
+          </li>
+          <li class="footer-lista">
+            <a class="link-footer" href="#" title="Lea el aviso legal"
+              >Aviso Legal</a
+            >
+          </li>
+        </ul>
+        <small>InboundCycle © 2015</small>
+      </nav>
+      <!-- Copyright -->
+    </div>
+  </footer>
+  <!-- Pop-up -->
+  <div id="modal" class="container-modal fade">
+    <div class="caption">
+      <i id="close" class="fa fa-times"></i>
+      <p class="modal-text">
+        ¡Muchas gracias!<span
+          ><i class="fa fa-check-circle" aria-hidden="true"></i
+        ></span>
+      </p>
+    </div>
+  </div>
+  <script src="js/app.js"></script>
+</body>
